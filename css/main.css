@@ -1,0 +1,47 @@
+:root {
+	--primary-font:'Spectral SC', serif;
+	--secondary-font: 'Vollkorn SC', serif;
+	--large-font: 40px;
+	--small-font: 25px;
+}
+
+html, body {
+	height: 80%;
+	width: 100%;
+	background-color: black;
+}
+
+.dead-center {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+q#english {
+    quotes: "“" "”";
+    font-family: var(--primary-font);
+    font-size: var(--large-font);
+    color: red;
+}
+
+q#german {
+	quotes: "„" "”";
+	margin-top: 50px;
+	font-family: var(--primary-font);
+	font-size: var(--large-font);
+	color: red;
+}
+
+p {
+	text-align: center;
+	font-family: var(--secondary-font);
+	font-size: var(--small-font);
+	color:  #94050c;
+}
+
+.margin {
+	margin-top: 50px;
+}
